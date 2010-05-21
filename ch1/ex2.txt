@@ -1,0 +1,3 @@
+ghc> let x = 1
+ghc> :show bindings
+x :: Integer = _
