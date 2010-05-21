@@ -1,0 +1,6 @@
+"last :: [a] -> a" could...
+
+* Return the last element
+* Return the first element
+* Return the nth element (for some constant n)
+* Return the element at some random position (eg the middle)

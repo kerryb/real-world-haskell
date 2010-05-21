@@ -1,0 +1,10 @@
+ghc> lastButOne [1, 2, 3, 4]
+3
+ghc> lastButOne [1, 2, 3]
+2
+ghc> lastButOne [1, 2]
+1
+ghc> lastButOne [1]
+*** Exception: Prelude.last: empty list
+ghc> lastButOne []
+*** Exception: Prelude.init: empty list
