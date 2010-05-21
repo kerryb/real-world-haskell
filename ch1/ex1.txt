@@ -1,0 +1,15 @@
+5 + 8 :: (Num t) => t
+3 * 5 + 8 :: (Num t) => t
+2 + 4 :: (Num t) => t
+(+) 2 4 :: (Num t) => t
+sqrt 16 :: (Floating t) => t
+succ 6 :: (Num t, Enum t) => t
+succ 7 :: (Num t, Enum t) => t
+pred 9 :: (Num t, Enum t) => t
+pred 8 :: (Num t, Enum t) => t
+sin (pi / 2) :: (Floating a) => a
+truncate pi :: (Integral b) => b
+round 3.5 :: (Integral b) => b
+round 3.4 :: (Integral b) => b
+floor 3.7 :: (Integral b) => b
+ceiling 3.3 :: (Integral b) => b
