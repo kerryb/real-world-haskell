@@ -15,7 +15,7 @@ turnDirection a b c
                    overall_y = y c - y a
                    crossProductSign = line1_x * overall_y - line1_y * overall_x
 
-turnDirections [] = ""
-turnDirections [_] = ""
-turnDirections [_,_] = ""
-turnDirections (a:b:c:xs) = show (turnDirection a b c) ++ " " ++ turnDirections (b:c:xs)
+turnDirections [] = []
+turnDirections [_] = []
+turnDirections [_,_] = []
+turnDirections (a:b:c:xs) = turnDirection a b c : turnDirections (b:c:xs)
