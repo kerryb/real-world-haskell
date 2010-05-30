@@ -1,3 +1,4 @@
 **/*.hi
 **/*.o
 ch4/Interact
+ch4/FixLines

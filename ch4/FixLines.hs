@@ -26,4 +26,4 @@ main = mainWith myFunction
             _ -> putStrLn "error: exactly two arguments needed"
 
         -- replace "id" with the name of our function below
-        myFunction = id
+        myFunction = fixLines
