@@ -1,4 +1,5 @@
-**/*.hi
-**/*.o
+*.hi
+*.o
 ch4/Interact
 ch4/FixLines
+ch4/part1/ex3/FirstLines
