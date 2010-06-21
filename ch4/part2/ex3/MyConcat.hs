@@ -1,0 +1,1 @@
+myConcat xs = foldr (++) [] xs
