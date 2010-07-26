@@ -33,3 +33,8 @@ charClass []       = error "unterminated character class"
 
 matchesGlob :: FilePath -> String -> Bool
 name `matchesGlob` pat = name =~ globToRegex pat
+
+-- Ex1: try passing a malformed regexp to matchesGlob
+malformed f = matchesGlob f "["
+-- => *** Exception: unterminated character class
+
